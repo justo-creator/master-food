@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #191414;
+    color: #fff;
+}
+
+.note {
+    margin: 20px;
+    color: #b3b3b3;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-container .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.header-container .logo span {
+    color: #1DB954;
+}
+
+.header-container .ul-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-container .ul-list li {
+    list-style: none;
+}
+
+.header-container .ul-list li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header-container .ul-list li a:hover {
+    color: #1DB954;
+}
+
+.header-container .header-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-container .header-icon .active {
+    background-color: #1DB954;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header-container .header-icon .active:hover {
+    background-color: #17a746;
+}
+
+.header-container .header-icon a i {
+    color: #fff;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.title h1 span {
+    color: #1DB954;
+}
+
+h3 {
+    color: #1DB954;
+}
+
+.services {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    place-items: center;
+}
+
+
+.container{
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.container .product{
+    padding: 30px;
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container .product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container .product span{
+ color: #fff;
+}
+.container .product button{
+    background-color: #1DB954;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+.services .item {
+    background-color: #000;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    color: #b3b3b3;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.services .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(29, 185, 84, 0.5);
+}
+
+.menu {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #1DB954;
+}
+
+.menu img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
+.ol-menu {
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ol-menu li {
+    list-style: none;
+}
+
+.ol-menu li a {
+    color: #b3b3b3;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.4s ease-out;
+}
+
+.ol-menu li a:hover {
+    background: #1DB954;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-container .ul-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .services {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .menu h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 2.5rem;
+        margin: 30px 0;
+    }
+
+    .services {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .menu img {
+        max-height: 300px;
+    }
+
+    .menu h2 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}

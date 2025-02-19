@@ -1,0 +1,62 @@
+[
+    {
+        "image": "/img/image1.png",
+        "name": "Xpress Coffee",
+        "price": 12.99,
+        "description": "Premium coffee beans roasted to perfection with a hint of caramel and chocolate flavor."
+    },
+    {
+        "image": "/img/image2.png",
+        "name": "Decaf Coffee",
+        "price": 8.99,
+        "description": "Hand-picked, decaffeinated coffee beans brewed with love and care."
+    },
+    {
+        "image": "/img/image3.png",
+        "name": "Latte",
+        "price": 14.99,
+        "description": "Espresso with steamed milk, topped with a dollop of foam and whipped cream."
+    },
+    {
+        "image": "/img/image4.png",
+        "name": "Mocha",
+        "price": 16.99,
+        "description": "Espresso with steamed milk, topped with a thick layer of cream and chocolate sauce."
+    },
+    {
+        "image": "/img/image5.png",
+        "name": "Cappuccino",
+        "price": 18.99,
+        "description": "Espresso, steamed milk, and a shot of espresso-based foam."
+    },
+    {
+        "image": "/img/image6.png",
+        "name": "Hot Chocolate",
+        "price": 10.99,
+        "description": "A refreshing blend of chocolate, milk, and caramel, perfect for those who crave a gentle kick."
+    },
+    {
+        "image": "/img/image7.png",
+        "name": "Iced Tea",
+        "price": 6.99,
+        "description": "A refreshing blend of tea and ice, perfect for those who want to warm up and stay hydrated."
+    },
+    {
+        "image": "/img/image8.png",
+        "name": "Green Tea",
+        "price": 4.99,
+        "description": "A refreshing blend of green tea and water, perfect for those who want to feel refreshed and relaxed."
+    },
+    {
+        "image": "/img/image9.png",
+        "name": "Black Tea",
+        "price": 3.99,
+        "description": "A refreshing blend of black tea and water, perfect for those who want to enjoy a warm and refreshing brew."
+    },
+    {
+        "image": "/img/image10.png",
+        "name": "Bubble Bath",
+        "price": 11.99,
+        "description": "A refreshing blend of bubble bath and water, perfect for those who want to soak in their favorite beverage."
+    }
+]
