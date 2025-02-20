@@ -6,8 +6,7 @@
 
 body {
     font-family: 'Sora', sans-serif;
-    background-color: #191414;
-    color: #fff;
+    background-color: #fff;
 }
 
 .note {
@@ -73,7 +72,7 @@ body {
 }
 
 .header-container .header-icon a i {
-    color: #fff;
+    color: #191414;
 }
 
 .title {
@@ -128,7 +127,7 @@ h3 {
 }
 
 .container .product span{
- color: #fff;
+ color: #191414
 }
 .container .product button{
     background-color: #1DB954;
